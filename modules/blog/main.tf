@@ -72,8 +72,8 @@ module "blog_alb" {
       forward = {
         target_group_arn = aws_lb_target_group.blog.arn
       }
-   }
-}
+    }
+  }
 
   tags = {
     Environment = var.environment.name
