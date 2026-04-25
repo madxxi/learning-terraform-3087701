@@ -16,5 +16,5 @@ moved {
 }
 moved {
     from = module.blog_autoscaling
-    to   = moodule.dev.module.blog_autoscaling
+    to   = module.dev.module.blog_autoscaling
 }
